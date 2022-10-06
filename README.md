@@ -6,7 +6,7 @@ Begin the build of an application for a product called CAPS - The Code Academy P
 
 This will be an event driven application that “distributes” the responsibility for logging to separate modules, using only events to trigger logging based on activity.
 
-### Author: Tyler Main
+### Author: Tyler Main (Credit: Xavier Hillman (code review), Brandon Pitts, Stephen Clemmer, Stephanie Hill)
 
 #### Setup
 
@@ -32,4 +32,5 @@ As a developer, I want to create an event driven system so that I can write code
 
 ###### UML
 
-![LAB 11 UML](./assets/Lab11-UML.png)
+![LAB 11 UML](./src/assets/Lab11-UML.png)
+![LAB 12 UML](./src/assets/Lab12-UML.png)
