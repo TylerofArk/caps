@@ -2,10 +2,12 @@
 
 const { Server } = require('socket.io');
 const PORT = process.env.PORT || 3002;
+const Queue = require('./library/queue');
 
 const server = new Server(PORT);
-
 const caps = server.of('/caps');
+const messageQueue = new Queue();
+const messages = server.of('/messages');
 
 caps.on('connection', (socket) => {
   console.log('Socket connected to CAPS namespace!', socket.id);
