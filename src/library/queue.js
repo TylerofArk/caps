@@ -14,7 +14,7 @@ class Queue {
   }
 
   remove(key){
-    console.log('Something has been deleted');
+    console.log('Something has been deleted', this.data[key]);
     let value = this.data[key];
     delete this.data[key];
     return value;
