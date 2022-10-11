@@ -13,7 +13,7 @@ widgetVendor.publish('GETALL', {queueId: 'acme-widgets'});
 
 
 widgetVendor.subscribe('DELIVERED', (payload) => {
-  console.log(`Thank you for delivering ${payload.orderID}`);
+  console.log(`Thank you for delivering ${payload.orderId}`);
   widgetVendor.publish('RECEIVED', payload)
 });
 

@@ -44,7 +44,7 @@ caps.on('connection', (socket) => {
     let deleteMessage = currentQueue.remove(payload.messageId);
   });
 
-  socket.on('GETALL', () => {
+  socket.on('GETALL', (payload) => {
     console.log(`getting all messages for ${payload.queueId}`);
 
     let currentQueue = messageQueue.read(payload.queueId);

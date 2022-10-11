@@ -10,7 +10,13 @@ This will be an event driven application that “distributes” the responsibili
 
 #### Setup
 
-npm install chance
+Open up 5 terminal tabs
+
+Navigate to src and run: nodemon caps.js
+Navigate to hub and run: nodemon index.js
+Navigate to src/driver and run: nodemon index.js
+Navigate to src/vendor/flowers and run: nodemon index.js
+Navigate to src/vendor/widgets and run: nodemon index.js
 
 ##### Features
 
@@ -32,5 +38,4 @@ As a developer, I want to create an event driven system so that I can write code
 
 ###### UML
 
-![LAB 11 UML](./src/assets/Lab11-UML.png)
 ![LAB 12 UML](./src/assets/Lab12-UML.png)
